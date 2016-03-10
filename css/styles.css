@@ -1,0 +1,177 @@
+/** {
+	box-sizing:border-box;
+	gives everything bordersized box
+	* = everything
+}*/
+
+body {
+	background-color: #eeeeee; 
+	font-family:helvetica, Arial, sans-serif;
+	margin:0px;
+	padding-bottom: 200px;
+
+}
+
+nav {
+	background-color: #ffffff;
+	border-top: #ff4700 5px solid;
+
+}
+
+nav li {
+	list-style: none;
+	display:inline;
+	margin-left: 20px
+
+}
+
+nav a {
+	color: #ff4700; /*Orange links*/
+	text-decoration: none;
+	
+
+}
+nav li:first-child {
+	margin-left: 0px;
+
+}
+
+
+nav a:hover:not(#buy-now) {
+	text-decoration: underline;
+
+}
+
+
+nav img {
+	vertical-align: middle;
+	margin-right: 520px;
+
+
+}
+
+#buy-now {
+	color:#ffffff;
+	padding:6px;
+	border-radius:4px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f24000+0,ff4700+100 */
+	background: rgb(242,64,0); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(242,64,0,1) 0%, rgba(255,71,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(242,64,0,1) 0%,rgba(255,71,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(242,64,0,1) 0%,rgba(255,71,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f24000', endColorstr='#ff4700',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+nav ul{
+	padding-left: 0px;
+	width:970px;
+	margin: 0px auto;
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+
+
+/*NAV END MAIN START*/
+
+
+
+main {
+	width:970px;
+	margin:0 auto;
+
+}
+
+
+article header ul {
+	padding-left: 0px;
+	list-style: none;
+	font-size:x-small;
+}
+
+article header li{
+	display: inline;
+	margin-right: 10px
+
+}
+
+article header div ul li a{
+	color:#333333;
+	text-decoration: none;
+}
+
+article {
+	background-color: #fff;
+	width: 66.66%;
+	box-sizing: border-box;
+	margin-top:40px;
+	/* X axis, Y axis, blur, size / rgb color, transparent*/
+	box-shadow: 0 8px 5px -5px rgba(0,0,0,.15); 
+
+
+}
+
+article header img {
+	max-width: 100%
+
+}
+
+.article-content {
+	padding: 0 30px;
+
+}
+
+article h1 {
+	font-family: 'Crete Round', serif;
+	font-size :xx-large;
+	font-weight:400px;
+
+}
+
+article h1 a {
+	color: #333333;
+	text-decoration: none;
+
+}
+
+
+#pinned h1 a:hover{
+	color:#666666;
+
+}
+
+
+article h1 a:hover{
+	color: #ff4700;
+}
+
+
+article p {
+	color:#333333;
+}
+
+.breakout {
+	font-weight:bold;
+	color:#222222;
+	text-decoration: none;
+	display:inline-block;
+	margin:10px 0px;
+
+}
+
+article footer {
+	background-color: #fcfcfc;
+	padding: 20px 30px;
+	border-top: 1px solid #eeeeee;
+
+}
+
+
+
+
+
