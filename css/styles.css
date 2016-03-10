@@ -47,8 +47,8 @@ nav img {
 	vertical-align: middle;
 	margin-right: 520px;
 
-
 }
+
 
 #buy-now {
 	color:#ffffff;
@@ -130,6 +130,7 @@ article h1 {
 	font-family: 'Crete Round', serif;
 	font-size :xx-large;
 	font-weight:400px;
+	margin-top :0;
 
 }
 
@@ -172,6 +173,25 @@ article footer {
 }
 
 
+.badge {
+	background-color: #444444;
+	width: 58px;
+	height: 58px;
+	text-align: center;
+	border-radius:50%;
+	border:6px solid #ffffff;
+	position :relative;
+	bottom:39px;
+	margin: 0 auto;
+	box-shadow :0 2px 5px 0 rgba(0,0,0,.05);
 
+}
+
+
+.badge i {
+	color:#ffffff;
+	line-height :58px;
+	font-size: 28px;
+}
 
 
